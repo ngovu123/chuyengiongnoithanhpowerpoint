@@ -1,7 +1,7 @@
 const axios = require('axios');
 
 async function getSlidesFromTranscription(transcription) {
-  const OPENAI_API_KEY = 'sk-mpIei40Gt5ueldWm5eveVWCBjmW2IfpVkxrD6T4PBFT3BlbkFJlgqZsD4kUaPMuKCezBzq99GirgS8s5nNYwIsAPrkEA';
+  const OPENAI_API_KEY = 'sk-TY15bMqIviSTFCRJQxpsTHKAgqFBEz3rjlY5owP6vuT3BlbkFJxTxmpWEIJDsrbYvtqWKVr8E65y6WSyIkkChDl6StcA';
   const OPENAI_API_URL = 'https://api.openai.com/v1/completions';
 
   const prompt = `You are an AI that converts text into slides with headers and bullet points. Turn the following text into slides:
